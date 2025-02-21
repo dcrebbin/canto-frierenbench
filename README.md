@@ -24,3 +24,16 @@ The extension uses the language prefixs to correctly display duel subtitles on a
 The original spoken Cantonese subtitles are provided by [www.cantocaptions.com](https://cantocaptions.com)
 
 The prompt to put into any given LLM is available here at `./frieren-prompt.txt`.
+
+## Breakdown
+
+|Model   | Time taken   | Extra Formatting Need?    | One shot?   | Accurary  | Notes
+|---|---|---|---|---|---|
+|Anthropic Sonnet 3.5   |   |   |  |   | |
+|Google Flash Thinking (exp)   |   |   |   |   | |
+|OpenAI o1   |   |   |   |   | |
+|OpenAI o3-mini   |   |   |   |   |
+|OpenAI o3-mini-high   |   |   |   |   |
+|xAI Grok 3   |   |   |   |   |
+|DeepSeek R1   |   |   |   |   |
+|Alibaba Qwen 2.5 Max   |   |   |   |   |

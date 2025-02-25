@@ -5,6 +5,7 @@
 An LLM benchmark based on the first episode of Cantonese dubbed Friren to test the generation of [langpal subtitle](https://langpal.com.hk/subtitles) formatted SRT files that have duel Cantonese and English.
 
 Expected Format:
+
 ```
 1
 00:00:00,672 --> 00:00:04,960
@@ -27,13 +28,15 @@ The prompt to put into any given LLM is available here at `./frieren-prompt.txt`
 
 ## Breakdown
 
-|Model   | Time taken   | Extra Formatting Need?    | One shot?   | Accurary  | Notes
-|---|---|---|---|---|---|
-|Anthropic Sonnet 3.5   |   |   |  |   | |
-|Google Flash Thinking (exp)   |   |   |   |   | |
-|OpenAI o1   |   |   |   |   | |
-|OpenAI o3-mini   |   |   |   |   |
-|OpenAI o3-mini-high   |   |   |   |   |
-|xAI Grok 3   |   |   |   |   |
-|DeepSeek R1   |   |   |   |   |
-|Alibaba Qwen 2.5 Max   |   |   |   |   |
+| Model                         | Time taken | Extra Formatting Need? | One shot? | Accuracy | Notes  | Cost |
+| ----------------------------- | ---------- | ---------------------- | --------- | -------- | ------ | ---- |
+| Anthropic Sonnet 3.5          |            | YES                    | NO        |          |        |
+| Anthropic Sonnet 3.7          |            | YES                    | NO        |          |        |
+| Anthropic Sonnet 3.7 Thinking |            | NO                     | YES       |          |        |
+| Google Flash Thinking (exp)   |            | NO                     | YES       |          |        |
+| OpenAI o1                     |            | NO                     | YES       |          |        |
+| OpenAI o3-mini                |            | NO                     | YES       |          |        |
+| OpenAI o3-mini-high           |            | NO                     | YES       |          |        |
+| xAI Grok 3                    |            | NO                     | YES       |          |        |
+| DeepSeek R1                   |            | NO                     | NO        |          |        |
+| Alibaba Qwen 2.5 Max          | -          | -                      | -         | -        | Failed |
